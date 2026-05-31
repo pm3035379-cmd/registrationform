@@ -16,7 +16,7 @@ function App() {
   
  const registrationform= async()=>{
   try{
-  const res=await fetch("http://localhost:8000/check-registration");
+  const res=await fetch("https://backend-2-71sm.onrender.com/check-registration");
 
   const data= await res.json();
 
