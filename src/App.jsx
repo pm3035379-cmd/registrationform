@@ -4,7 +4,12 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import { useNavigate } from 'react-router-dom'
+<<<<<<< HEAD
 import logo from './assets/pic1.png'
+=======
+import {pic1} from '../public/pic1.png'
+
+>>>>>>> daa4bb50f72593d7ff71bcc28d100048f8aca666
 
 
 function App() {
@@ -16,7 +21,7 @@ function App() {
   
  const registrationform= async()=>{
   try{
-  const res=await fetch("http://localhost:8000/check-registration");
+  const res=await fetch("https://backend-2-71sm.onrender.com/check-registration");
 
   const data= await res.json();
 
@@ -45,7 +50,11 @@ function App() {
       <h3><b>REGISTRATION FORM</b></h3>
       
       <div id="div1">
+<<<<<<< HEAD
       <img src={logo} ></img>
+=======
+      <img src={pic1} ></img>
+>>>>>>> daa4bb50f72593d7ff71bcc28d100048f8aca666
       <button onClick={registrationform}>Registration Form</button>
 </div>
 
