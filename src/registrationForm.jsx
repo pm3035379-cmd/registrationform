@@ -107,7 +107,7 @@ function RegistrationForm() {
 
     try {
       const res = await fetch(
-        "http://localhost:3000/register",
+        "https://backendcode-2-ffva.onrender.com/register",
         {
           method: "POST",
           body: formData,
