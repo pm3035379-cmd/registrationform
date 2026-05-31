@@ -49,7 +49,7 @@ function App() {
 
       <img src={logo} ></img>
 
-      <img src={pic1} ></img>
+      
 
       <button onClick={registrationform}>Registration Form</button>
 </div>
