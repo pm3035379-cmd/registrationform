@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import { useNavigate } from 'react-router-dom'
+import {pic1} from '../public/pic1.png'
 
 
 
@@ -45,7 +46,7 @@ function App() {
       <h3><b>REGISTRATION FORM</b></h3>
       
       <div id="div1">
-      <img src='public/pic1.png' ></img>
+      <img src={pic1} ></img>
       <button onClick={registrationform}>Registration Form</button>
 </div>
 
