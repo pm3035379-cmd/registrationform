@@ -42,10 +42,14 @@ function App() {
     
 
       <h1>GANDHI COMMUNITY COLLEGE </h1>
+
+      <div id="d">
       <h2><b>ENNORE BRANCH </b></h2>
 
        <h4>🌟ADMISSION OPEN 2026🌟</h4> 
       <h3><b>REGISTRATION FORM</b></h3>
+
+        </div>
       
       <div id="div1">
 
