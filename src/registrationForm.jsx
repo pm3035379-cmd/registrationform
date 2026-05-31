@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useLocation,useNavigate } from "react-router-dom";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
-
+import './index.css'
 
 function RegistrationForm() {
 
