@@ -182,6 +182,7 @@ function RegistrationForm() {
         alert(
           "Registration Submitted"
         );
+          nav("/")
       }
     } catch (err) {
       console.log(err);
